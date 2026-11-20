@@ -12,3 +12,8 @@
 */
 
 // Escribe aquí tu código
+const lenis = new Lenis({
+   autoRaf: true, //lenis se encarga de su propio buvla de animacion
+   lerp: 0.1, //nivel de suavidad del smoothscroll entre 0y1
+   anchors: { offset: -60 }, //este propiedad actiuva la navegacion suavizada a las selecciones desde los enclaces del menu
+})
